@@ -35,12 +35,7 @@ def record_current_answer(answer, current_question_id, session):
     return True, ""
 
 
-def get_next_question(current_question_id):
-    '''
-    Fetches the next question from the PYTHON_QUESTION_LIST based on the current_question_id.
-    '''
-
-    return "dummy question", -1
+h
 
 
 def generate_final_response(session):
